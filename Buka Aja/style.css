@@ -1,0 +1,48 @@
+body {
+  background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-custom {
+  background-color: #ff6f61;
+  border: none;
+  color: white;
+  border-radius: 50px;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+  margin: 5px;
+}
+
+.btn-custom:hover {
+  background-color: #e55a50;
+}
+
+.btn-sorry {
+  background-color: #d3d3d3;
+  border: none;
+  color: black;
+  border-radius: 50px;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+  margin: 5px;
+}
+
+.btn-sorry:hover {
+  background-color: #b5b5b5;
+}
+
+.image-container {
+  text-align: center;
+}
